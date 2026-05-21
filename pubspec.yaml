@@ -1,0 +1,28 @@
+name: omnikingnile_tv_stream
+description: A full-featured IPTV app with Netflix-style UI, M3U/M3U8 playlist support, and advanced video playback.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.0
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  better_player: ^0.0.83
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
