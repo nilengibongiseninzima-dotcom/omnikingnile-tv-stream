@@ -1,0 +1,6 @@
+# Flutter build configuration for Android-only
+# This tells Flutter to skip iOS platform checks
+
+# Supported platforms
+platforms:
+  android: null
